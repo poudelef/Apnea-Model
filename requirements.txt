@@ -1,9 +1,5 @@
 streamlit>=1.36
-tensorflow-cpu==2.15.*
-keras==2.15.*
-numpy==1.26.*
+tensorflow-cpu==2.20.0
+numpy>=1.26
 pillow
 matplotlib
-# If you import cv2 anywhere, also add:
-# opencv-python-headless
-# protobuf<4
